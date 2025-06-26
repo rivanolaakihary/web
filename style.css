@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #e9eff5; /* Warna latar belakang yang lebih cerah */
+    color: #333;
+}
+
+header {
+    background: #2c3e50; /* Warna header yang lebih gelap */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+    border: 4px solid #f0f0f0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease;
+}
+
+#profile-pic:hover {
+    transform: scale(1.08);
+    border-color: #3498db; /* Efek hover pada border */
+}
+
+main {
+    padding: 25px;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc; /* Garis putus-putus */
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+h2 {
+    color: #3498db; /* Warna biru yang menarik */
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 12px;
+    background: #ecf0f1; /* Warna latar belakang item daftar */
+    padding: 15px;
+    border-left: 5px solid #3498db; /* Garis warna di samping kiri */
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+ul li:hover {
+    background: #e0e6e9; /* Efek hover */
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a5276;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #2c3e50;
+    color: #fff;
+    margin-top: 40px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
